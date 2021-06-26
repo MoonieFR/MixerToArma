@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ExportPreset xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" PresetVersion="1">
+  <MixerVersion>2021.1.1</MixerVersion>
+  <Workflow>Metalness</Workflow>
+  <Maps>
+    <ExportMapPreset>
+      <MapName>_ca</MapName>
+      <Active>true</Active>
+      <Foldout>true</Foldout>
+      <IsEditable>false</IsEditable>
+      <FileFormatName>PNG</FileFormatName>
+      <BitDepthName>8-bit</BitDepthName>
+      <UsedChannels>RGBA</UsedChannels>
+      <RedChannel>
+        <ContentName>Albedo R</ContentName>
+        <GammaSelection>0</GammaSelection>
+      </RedChannel>
+      <GreenChannel>
+        <ContentName>Albedo G</ContentName>
+        <GammaSelection>0</GammaSelection>
+      </GreenChannel>
+      <BlueChannel>
+        <ContentName>Albedo B</ContentName>
+        <GammaSelection>0</GammaSelection>
+      </BlueChannel>
+      <AlphaChannel>
+        <ContentName>Value</ContentName>
+        <ValueSettings>
+          <Value>1</Value>
+        </ValueSettings>
+        <GammaSelection>1</GammaSelection>
+      </AlphaChannel>
+    </ExportMapPreset>
+    <ExportMapPreset>
+      <MapName>_nohq</MapName>
+      <Active>true</Active>
+      <Foldout>false</Foldout>
+      <IsEditable>false</IsEditable>
+      <FileFormatName>PNG</FileFormatName>
+      <BitDepthName>8-bit</BitDepthName>
+      <UsedChannels>RGB</UsedChannels>
+      <RedChannel>
+        <ContentName>Normal X</ContentName>
+        <NormalSettings>
+          <Invert>false</Invert>
+        </NormalSettings>
+        <GammaSelection>1</GammaSelection>
+      </RedChannel>
+      <GreenChannel>
+        <ContentName>Normal Y</ContentName>
+        <NormalSettings>
+          <Invert>false</Invert>
+        </NormalSettings>
+        <GammaSelection>1</GammaSelection>
+      </GreenChannel>
+      <BlueChannel>
+        <ContentName>Normal Z</ContentName>
+        <NormalSettings>
+          <Invert>false</Invert>
+        </NormalSettings>
+        <GammaSelection>1</GammaSelection>
+      </BlueChannel>
+    </ExportMapPreset>
+    <ExportMapPreset>
+      <MapName>_smdi</MapName>
+      <Active>true</Active>
+      <Foldout>false</Foldout>
+      <IsEditable>false</IsEditable>
+      <FileFormatName>PNG</FileFormatName>
+      <BitDepthName>8-bit</BitDepthName>
+      <UsedChannels>RGB</UsedChannels>
+      <RedChannel>
+        <ContentName>Value</ContentName>
+        <ValueSettings>
+          <Value>1</Value>
+        </ValueSettings>
+        <GammaSelection>1</GammaSelection>
+      </RedChannel>
+      <GreenChannel>
+        <ContentName>Albedo G</ContentName>
+        <GammaSelection>0</GammaSelection>
+      </GreenChannel>
+      <BlueChannel>
+        <ContentName>Roughness</ContentName>
+        <GammaSelection>1</GammaSelection>
+      </BlueChannel>
+    </ExportMapPreset>
+    <ExportMapPreset>
+      <MapName>_as</MapName>
+      <Active>true</Active>
+      <Foldout>false</Foldout>
+      <IsEditable>false</IsEditable>
+      <FileFormatName>PNG</FileFormatName>
+      <BitDepthName>8-bit</BitDepthName>
+      <UsedChannels>RGB</UsedChannels>
+      <RedChannel>
+        <ContentName>Value</ContentName>
+        <ValueSettings>
+          <Value>1</Value>
+        </ValueSettings>
+        <GammaSelection>1</GammaSelection>
+      </RedChannel>
+      <GreenChannel>
+        <ContentName>Ambient Occlusion</ContentName>
+        <GammaSelection>0</GammaSelection>
+      </GreenChannel>
+      <BlueChannel>
+        <ContentName>Value</ContentName>
+        <ValueSettings>
+          <Value>1</Value>
+        </ValueSettings>
+        <GammaSelection>1</GammaSelection>
+      </BlueChannel>
+    </ExportMapPreset>
+  </Maps>
+</ExportPreset>
